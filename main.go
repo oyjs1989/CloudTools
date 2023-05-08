@@ -1,6 +1,6 @@
 package main
 
-import "tools/shell/tencentcloud/clouds"
+import "github.com/oyjs1989/CloudTools/tools/shell"
 
 func main() {
 

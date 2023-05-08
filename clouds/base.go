@@ -11,7 +11,7 @@ type Cloud struct {
 
 // Cloud is the interface that all clouds must implement
 type Client interface {
-	init() error
+	init(appid string,appkey string) error
 	// Get the name of the cloud
 	close() error
 }
