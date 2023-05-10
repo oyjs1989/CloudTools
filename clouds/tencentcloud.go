@@ -40,7 +40,7 @@ func (c *TencentCloud) init() error {
 	}
 	// 输出json格式的字符串回包
 	fmt.Printf("%s", response.ToJsonString())
-	c.Client = tat.NewClient()
+	c.Client = tat.NewClient(credential, "", cpf)
 	return nil
 }
 
